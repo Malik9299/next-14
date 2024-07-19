@@ -6,7 +6,8 @@
     "dev": "next dev -p 14000",
     "build": "next build",
     "start": "next start -p 14100",
-    "lint": "next lint"
+    "lint": "next lint",
+    "json-server": "json-server --watch db.json --port 4000"
   },
   "dependencies": {
     "react": "^18",
